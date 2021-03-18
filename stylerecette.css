@@ -1,8 +1,15 @@
+
+
+
 body { /* Le padding est à enlever une fois fini  */
     max-width: 480px;
     padding: 0 400px;
+
 }
 
+main{
+    background: url(images/fond.jpg);
+}
 
 
 img {
@@ -10,22 +17,48 @@ img {
     height: 150px; 
     object-fit: cover; 
     max-width: 100%;
+    padding: 10px;
 }
   
 
 h1 {
-font-size: 3em;
+font-size: 2em;
+text-align: center;
 }
 
 h2 {
-    font-size: 20px;
+    font-size: 16px;
+    text-decoration: underline overline #485003;
+    font-style: italic;
 }
 
 .flotte {
-    float:left;
+    float: left;
+    transition: transform .2s; /* Animation */
 }
 
+.flotte:hover {
+  transform: scale(1.4); /* (140% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
 
+p {
+    margin-top : 10px;
+}
+
+/* Création d'un fond jaune pour la div recette */
+.fondRecette {
+    background-color: #F4F4CA;
+    border-radius: 10px 10px 10px 10px;
+    padding: 5px;
+}
+
+/* Création d'un fond gris pour la section recette */
+.section {
+    max-height: 300px;
+    padding: 20px;
+    background-color: #C4C4C4;
+    margin: 10px;
+}
 
 
 
