@@ -1,0 +1,32 @@
+body { /* Le padding est à enlever une fois fini  */
+    max-width: 480px;
+    padding: 0 400px;
+}
+
+
+
+img {
+    width: 150px; 
+    height: 150px; 
+    object-fit: cover; 
+    max-width: 100%;
+}
+  
+
+h1 {
+font-size: 3em;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+.flotte {
+    float:left;
+}
+
+
+
+
+
+
