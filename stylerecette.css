@@ -8,7 +8,7 @@
 
 
 
-body { /* Le padding est à enlever une fois fini  */
+body {  
     font-family: "Nunito", sans-serif;
     background: url(images/fond.jpg);
 
@@ -16,20 +16,20 @@ body { /* Le padding est à enlever une fois fini  */
 
 main {
  
-    /*width: 1200px;
-    margin: 0 auto;*/
+    width: 1500px;
+    margin: 0 auto;
 }
 
 
-img {
+.flotte {
     display: absolute;
     width: 150px; 
     height: 150px; 
     object-fit: cover; 
     max-width: 100%;
-    padding: 10px;
+    transition: transform .2s;
 }
-  
+
 
 h1 {
 font-size: 2em;
@@ -38,16 +38,12 @@ font-family: 'Redressed', cursive;
 }
 
 h2 {
-    font-size: 16px;
+    font-size: 25px;
     text-decoration: underline overline #485003;
     font-style: italic;
     display: right;
 }
 
-.flotte {
-    display: left;
-    transition: transform .2s; /* Animation */
-}
 
 .flotte:hover {
   transform: scale(1.4); /* (140% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
@@ -55,6 +51,7 @@ h2 {
 
 p {
     margin-top : 10px;
+    font-size: 20px;
 }
 
 /* Création d'un fond jaune pour la div recette */
@@ -63,6 +60,14 @@ p {
 .fondText {
     width: 70%;
     padding: 5px 15px;
+    text-align: start;
+    
+}
+
+.fondText2 {
+    width: 80%;
+    padding: 5px 15px;
+    text-align: end;
     
 }
 
@@ -70,21 +75,122 @@ p {
 .section {
     max-height: 300px;
     padding: 15px;
-    background-color : rgba(194, 15, 15, 0.5); 
+    background-color : rgba(153, 152, 152, 0.5); 
     margin: 10px;
     display: flex;
     justify-content: flex-end;
+    border-radius: 10px 10px 10px 10px;
+}
 
-  
+.sectionLeft {
+    max-height: 300px;
+    padding: 15px;
+    background-color : rgba(153, 152, 152, 0.5); 
+    margin: 10px;
+    display: flex;
+    justify-content: flex-start;
+    border-radius: 10px 10px 10px 10px;
 }
 
 .fondJaune {
     display: flex;
-    background-color: #F4F4CA;
+    width: 55%;
+    background-color : rgb(248, 248, 225);
     /*justify-content: space-between;*/
     border-radius: 10px 10px 10px 10px;
-    width: 1000px;
+}
+
+.fondJaune2 {
+    display: flex;
+    width: 55%;
+    background-color: rgb(248, 248, 225);
+    justify-content: space-between;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.button {
+    background-color: #ff6a19;
+    border: none;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 2rem;
+}
+
+.button:hover {
+    background-color: #ff955c;
+}
+
+.button strong {
+    font-size: 1.5rem;
 }
 
 
+.rating a {
+    color: rgb(211, 240, 46);
+    text-decoration: none;
+    font-size: 2.5em;
+    transition: color .4s;
+ }
+.rating a:hover,
+.rating a:focus,
+.rating a:hover ~ a,
+.rating a:focus ~ a {
+    color: orange;
+    cursor: pointer;
+}
 
+.mrtn-font-discret {
+    font-size: 1.5rem;
+    color: white
+}
+
+
+.accordion {
+    max-width: 400px;
+}
+
+.accordion .contentBx {
+    position: relative;
+    margin: 10px 0px;
+}
+
+.accordion .contentBx .label {
+    position: relative;
+    padding: 10px;
+    background: rgb(141, 137, 137);
+    color: rgb(243, 234, 234);
+    color: bold;
+    cursor: pointer;
+}
+
+.accordion .contentBx .label::before {
+    content: '+';
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    font-size: 1.5em;
+}
+
+.accordion .contentBx.active .label::before {
+    content: '-';
+}
+
+.accordion .contentBx .content {
+    position:relative;
+    background: rgb(248, 248, 225);
+    height: 0;
+    overflow: hidden;
+    transition: 0.5s;
+    overflow-y: auto;
+}
+
+.accordion .contentBx.active .content {
+    height: 150px;
+    padding: 10px;
+}
