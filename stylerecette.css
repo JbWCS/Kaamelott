@@ -1,10 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Redressed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;1,200&family=Redressed&display=swap');
 
+
+
+
+
+
+
+
+@media screen and (max-width: 480px);
 
 
 body { /* Le padding est à enlever une fois fini  */
-    max-width: 480px;
-    padding: 0 400px;
-
+    font-family: "Nunito", sans-serif;
 }
 
 main{
@@ -24,6 +32,7 @@ img {
 h1 {
 font-size: 2em;
 text-align: center;
+font-family: 'Redressed', cursive;
 }
 
 h2 {
@@ -56,8 +65,9 @@ p {
 .section {
     max-height: 300px;
     padding: 20px;
-    background-color: #C4C4C4;
+    background-color : rgba(196,196,196, 0.5); 
     margin: 10px;
+  
 }
 
 
