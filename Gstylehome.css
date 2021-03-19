@@ -76,10 +76,10 @@ ul li a:active{
 /*footer*/
 
 footer
-{height: 270px; background-color: #444}
+{height: 7%; background-color: rgba(57, 54, 54, 0.6)}
 
 footer h1
-{color: white; text-align: center; padding: 80px}
+{color: white; text-align: center; padding: 2%}
 
 .copyright
 {text-align: center; font-weight: bold; padding: 30px; color: #777}
