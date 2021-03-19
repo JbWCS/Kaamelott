@@ -1,16 +1,3 @@
-.burger {
-    width: 42px;
-    height: 24px;
-    cursor: pointer;
-    position: relative;
-}
-.burger span{
-    width: 100%;
-    height: 4px;
-    background-color: black;
-    display: block;
-}
-/*NavPart*/
 
 ul{
     display: table;
