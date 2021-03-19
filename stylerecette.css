@@ -3,16 +3,13 @@
 
 
 
+/*@media screen and (max-width: 800px) {*/
 
-
-
-
-
-@media screen and (max-width: 480px);
 
 
 body { /* Le padding est à enlever une fois fini  */
     font-family: "Nunito", sans-serif;
+
 }
 
 main{
@@ -21,6 +18,7 @@ main{
 
 
 img {
+    display: absolute;
     width: 150px; 
     height: 150px; 
     object-fit: cover; 
@@ -39,6 +37,7 @@ h2 {
     font-size: 16px;
     text-decoration: underline overline #485003;
     font-style: italic;
+    display: right;
 }
 
 .flotte {
@@ -58,18 +57,19 @@ p {
 .fondRecette {
     background-color: #F4F4CA;
     border-radius: 10px 10px 10px 10px;
-    padding: 5px;
+    padding: 5px 15px;
+    
 }
 
 /* Création d'un fond gris pour la section recette */
 .section {
     max-height: 300px;
-    padding: 20px;
+    padding: 15px;
     background-color : rgba(196,196,196, 0.5); 
     margin: 10px;
+
   
 }
-
 
 
 
