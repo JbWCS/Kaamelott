@@ -1,4 +1,7 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
+
 ul{
     display: table;
     width: 100%;
@@ -49,7 +52,16 @@ ul li a:active{
 }
 
 
+/*footer*/
 
+footer
+{height: 270px; background-color: #444}
+
+footer h1
+{color: white; text-align: center; padding: 80px}
+
+.copyright
+{text-align: center; font-weight: bold; padding: 30px; color: #777}
 
 
 
