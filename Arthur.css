@@ -44,6 +44,15 @@ form {
     flex-direction: column;
 }
 
+#msg {
+    height: 90px;
+    opacity: 0.5;
+}
+
+#pseudo {
+    opacity: 0.5;
+}
+
 .send {
     margin-top: 6px;
     margin-bottom: 6px;
