@@ -30,13 +30,13 @@ form {
     padding: 5px 10px;
 } 
 #carte{
-    ;
+   
 }
 
 
 .bloc{
 display: inline-block;
-width: 30%;
+width: 25%;
 }
 
 
@@ -49,4 +49,6 @@ width: 30%;
     width: 20%;
 }
 
+#letter{
+ font-size: smaller;
 }
