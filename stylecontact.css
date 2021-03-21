@@ -29,6 +29,16 @@ form {
     border: none;
     padding: 5px 10px;
 } 
+#carte{
+    ;
+}
+
+
+.bloc{
+display: inline-block;
+width: 30%;
+}
+
 
 @media screen and (max-width: 640px){
 
