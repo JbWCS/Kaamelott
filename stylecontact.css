@@ -48,19 +48,22 @@ footer{
     
     width:100%;
     
-    padding-top: 30px;
+    height: 40px;
     
-    height: 30px;
     
-    display: flex;
-      justify-content: flex-end;
-    align-items: flex-start;
+    
 
     }
 
+    #wrapContent{
+      display: flex;
+      justify-content: flex-end;
+    }
 
-    .imgFooter{
-      width: 25px;
+
+    .contentFooter{
+      width: 20px;
+      height: 20px;
       margin: 10px;
       padding-bottom: 15px;
     }
