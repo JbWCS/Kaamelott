@@ -23,26 +23,31 @@
     </header>
     <main>
       <h1>Characters of Kaamelott</h1>
+<div class="container">
+    <input type="search" id="search"  value="" onchange="ouvrirPage()">
+    <input type="button" id="buttonSearch" onclick="ouvrirPage()" value="Search"
+           aria-label="Search through characters content">
+</div>
 
       <section class="sectionLeft">
           <div class="fondJaune">
               <div>
 
-                  <img class="flotte" src="Alexandre-Astier.jpeg" alt="Arthur Pendragon">
+                <a href="Arthur.html"> <img class="flotte" src="Alexandre-Astier.jpeg" alt="Arthur Pendragon"></a>
                   <img class="Rondjaime" src="images/Perceval.jpg" alt="Perceval aime">
                   <img class="Rondjaime" src="images/Perceval.jpg" alt="Perceval aime">
                   <img class="Rondjaime" src="images/Perceval.jpg" alt="Perceval aime">
               </div>
               <div class="fondText">
             <h2>
-                      Arthur Pendragon
+                     <a  href="Arthur.html">Arthur Pendragon </a> 
                   </h2>
                   <p>
                     "For the Grail, I built a fortress. Kaamelott, it's called. I went looking for knights all over the kingdom. In Caledonia, in Carmelide, in Gaunes, in Vannes, in Wales. I had a big table built, so the knights could sit together. "  
                   </p>
               </div>
           </div>
-          <div>
+          <div class="buttonplacement">
               <a class="button" href=""><strong>I love</strong></a>
               <div class="rating">
                   <!--
@@ -57,18 +62,6 @@
               --><a href="#1" title="Donner 1 étoile">☆</a>
               </div>
               <span class="mrtn-font-discret">on 194 reviews</span>
-          </div>
-          <div class="accordion">
-              <div class="contentBx">
-                  <div class="label">List one</div>
-                  <div class="content">
-                      <p>
-                          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate ipsa dolores ab. Dolore corrupti at
-                          distinctio ullam numquam quaerat facere? Adipisci reprehenderit consequuntur sequi ullam, incidunt
-                          quidem voluptatibus rem dolorum!
-                      </p>
-                  </div>
-              </div>
           </div>
 
       </section>
@@ -258,7 +251,6 @@
 
 
   </main>
-
+  <script src="scripts.js"></script>
 </body>
-<script src="app.js"></script>
 </html>
