@@ -165,7 +165,7 @@ p {
 .fondJaune {
     display: flex;
     width: 55%;
-    background-color : rgb(248, 248, 225);
+    background-color : rgb(255 255 244 / 35%);
     /*justify-content: space-between;*/
     border-radius: 10px;
 }
@@ -199,7 +199,7 @@ p {
     align-items: center;
 }
 .button {
-    background-color: #ff6a19;
+    background-color:#383838;
     border: none;
     color: white;
     padding: 15px;
@@ -223,9 +223,11 @@ p {
 }*/
  
 /*****Etoiles******/
- 
+ .rating {
+     direction:rtl;
+     }
 .rating a {
-    color: rgb(211, 240, 46);
+    color: rgb(144 144 144 );
     text-decoration: none;
     font-size: 2.5em;
     transition: color .4s;
@@ -234,7 +236,7 @@ p {
 .rating a:focus,
 .rating a:hover ~ a,
 .rating a:focus ~ a {
-    color: orange;
+    color: rgb(255, 238, 0);
     cursor: pointer;
 }
 .rating a {
@@ -246,116 +248,15 @@ p {
     color: white
 }
  
-/*****Recipe / ingredients*****/
- 
-.accordion {
-    max-width: 400px;
-    padding: 30px 0 30px 30px;
-}
- 
- 
-.accordion .contentBx {
-    position: relative;
-    margin: 10px 0px;
-}
- 
-.accordion .contentBx .label {
-    position: relative;
-    padding: 10px;
-    background: rgb(141, 137, 137);
-    color: rgb(243, 234, 234);
-    color: bold;
-    cursor: pointer;
-    font-size: 1.5em;
-    border-radius: 10px 10px 10px 10px;
-}
- 
-.accordion .contentBx .label::before {
-    content: '+';
-    position: absolute;
-    top: 50%;
-    right: 20px;
-    transform: translateY(-50%);
-    font-size: 1.5em;
-    border-radius: 10px 10px 10px 10px;
-}
- 
-.accordion .contentBx.active .label::before {
-    content: '-';
-}
- 
-.accordion .contentBx .content {
-    position:relative;
-    background: rgb(248, 248, 225);
-    height: 0;
-    overflow: hidden;
-    transition: 0.5s;
-    overflow-y: auto;
-    border-radius: 10px 10px 10px 10px;
-}
- 
-.accordion .contentBx.active .content {
-    height: 150px;
-    padding: 10px;
-}
- 
-.accordion-reverse {
-    max-width: 400px;
-    padding: 30px 30px 30px 0;
-}
- 
-.accordion-reverse .contentBx-reverse {
-    position: relative;
-    margin: 10px 0px;
-}
- 
-.accordion-reverse .contentBx-reverse .label-reverse {
-    position: relative;
-    padding: 10px;
-    background: rgb(141, 137, 137);
-    color: rgb(243, 234, 234);
-    color: bold;
-    cursor: pointer;
-    font-size: 1.5em;
-    border-radius: 10px 10px 10px 10px;
-}
- 
-.accordion-reverse .contentBx-reverse .label-reverse::before {
-    content: '+';
-    position: absolute;
-    top: 50%;
-    right: 20px;
-    transform: translateY(-50%);
-    font-size: 1.5em;
-    border-radius: 10px 10px 10px 10px;
-}
- 
-.accordion-reverse .contentBx-reverse.active .label-reverse::before {
-    content: '-';
-}
- 
-.accordion-reverse .contentBx-reverse .content-reverse {
-    position:relative;
-    background: rgb(248, 248, 225);
-    height: 0;
-    overflow: hidden;
-    transition: 0.5s;
-    overflow-y: auto;
-    border-radius: 10px 10px 10px 10px;
-}
- 
-.accordion-reverse .contentBx-reverse.active .content-reverse {
-    height: 150px;
-    padding: 10px;
-}
+
  
 /*****Video*****/
  
-.video {
+#vid{
+    margin: 3%;
     display: flex;
     justify-content: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+object-fit:contain;
 }
  
 /*****carrousel 3d automatique*****/
@@ -494,11 +395,15 @@ main{
     border-radius: 10px;
     margin: 10px;
 }
+
 .img-flotte {
     margin: auto 10px;
 }
 .flotte:hover{
     transform: none;
+}
+.flotte2:hover {
+  transform: scale(1.4); /* (140% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
  
 .fondText{
@@ -523,56 +428,7 @@ p{
     margin-top: 15px;
 }
  
-.accordion-reverse {
-    max-width: 400px;
-    padding: 30px 30px 30px 0;
-}
- 
-.accordion-reverse .contentBx-reverse {
-    position: relative;
-    margin: 10px 0px;
-}
- 
-.accordion-reverse .contentBx-reverse .label-reverse {
-    position: relative;
-    padding: 10px;
-    background: rgb(141, 137, 137);
-    color: rgb(243, 234, 234);
-    color: bold;
-    cursor: pointer;
-    font-size: 1.5em;
-    border-radius: 10px 10px 10px 10px;
-}
- 
-.accordion-reverse .contentBx-reverse .label-reverse::before {
-    content: '+';
-    position: absolute;
-    top: 50%;
-    right: 20px;
-    transform: translateY(-50%);
-    font-size: 1.5em;
-    border-radius: 10px 10px 10px 10px;
-}
- 
-.accordion-reverse .contentBx-reverse.active .label-reverse::before {
-    content: '-';
-}
- 
-.accordion-reverse .contentBx-reverse .content-reverse {
-    position:relative;
-    background: rgb(248, 248, 225);
-    height: 0;
-    overflow: hidden;
-    transition: 0.5s;
-    overflow-y: auto;
-    border-radius: 10px 10px 10px 10px;
-}
- 
-.accordion-reverse .contentBx-reverse.active .content-reverse {
-    height: 150px;
-    padding: 10px;
-}
- 
+
  
 .fondJaune {
     display: flex;
@@ -645,12 +501,6 @@ p{
     margin: 10px;
     justify-content: flex-start;
     border-radius: 10px 10px 10px 10px;
-}
-.accordion{
-    padding: 15px 0;
-}
-.accordion-reverse{
-    padding: 15px 0;
 }
  
 video{
