@@ -14,6 +14,9 @@ body {
     margin: 0;
     padding: 0;
 }
+html {
+    scroll-behavior: smooth;
+}
 
 main {
  
@@ -429,6 +432,14 @@ transform:rotateY(45deg) translateZ(495px)
 	
 }
 
+#scrollUp
+{
+position: fixed;
+bottom : 50px;
+right: -100px;
+opacity: 1;
+scroll-behavior: smooth;
+}
 
 
 	

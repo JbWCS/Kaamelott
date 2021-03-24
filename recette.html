@@ -384,10 +384,13 @@
                                     <source src="video/_Des Quiches et des Hommes_ - épisode 1.mp4">
                                 </video>
                             </div>
-                            
+                            <div id="scrollUp">
+                                <a href="#top"><img src="images/to_top.png"/></a>
+                                </div>        
 
     </main>
 
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
     <script>
         const accordion = document.getElementsByClassName
             ('contentBx');
@@ -397,8 +400,21 @@
                 this.classList.toggle('active')
             })
         }
-        
     </script>
+    <script>
+        jQuery(function(){
+            $(function () {
+                $(window).scroll(function () {
+                    if ($(this).scrollTop() > 200 ) { 
+                        $('#scrollUp').css('right','10px');
+                    } else { 
+                        $('#scrollUp').removeAttr( 'style' );
+                    }
+
+                });
+            });
+        });
+</script>
 
 <footer>
 <div id="flex-end">
