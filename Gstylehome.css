@@ -98,7 +98,6 @@ ul li a:active{
     ul{
         display: flex;
         flex-direction: column;
-        justify-content: center;
         justify-content: space-between;
         align-items: center;
         width: 200px;
@@ -114,7 +113,6 @@ ul li a:active{
     }
     ul li{
         display: table-cell;
-
     }
     
     ul li a{
