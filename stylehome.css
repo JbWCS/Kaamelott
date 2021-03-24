@@ -20,8 +20,35 @@ header{
 }
 
 #vid{
-    margin: 0 auto;
+    margin: 3%;
+    display: flex;
+    justify-content: center;
 }
+
+/*footerpart*/
+
+footer{
+    display: flex;
+    width: 100%;
+    background-color: rgba(59, 59, 59, 0.2);
+    height: 2em;
+}
+
+footer div{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.contentFooter{
+   margin-left: 2%;
+}
+
+#pfooter{
+    display: flex;
+    align-items: center;
+}
+
 
 @media screen and (max-width:640px){
 #imgPrinc{

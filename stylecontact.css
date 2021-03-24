@@ -77,12 +77,16 @@ footer{
 
 
 @media screen and (max-width: 640px){
+  
 
 #carte{
+    
+    margin: 1%;
+    width: 400px;
+    height: 300px;
+    max-width: 100%;
     display: flex;
     justify-content: center;
-    margin: 20px;
-    width: 20%;
 }
 
 #letter{
