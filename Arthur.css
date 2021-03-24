@@ -1,3 +1,30 @@
+h1 {
+    display: flex;
+    font-family: 'Redressed-Regular' ;
+    font-size: 50px;
+    padding: 10px;
+    text-shadow:  white 0.006em 0.006em 0.007em,
+    #9c9c9c 1px 1px 1px,
+    #9c9c9c 1px 2px 1px,
+    #9c9c9c 1px 3px 1px,
+    #9c9c9c 1px 4px 1px,
+    #9c9c9c 1px 5px 1px,
+    #9c9c9c 1px 6px 1px,
+    #9c9c9c 1px 7px 1px,
+    #9c9c9c 1px 8px 1px,
+    #9c9c9c 1px 9px 1px,
+    #9c9c9c 1px 10px 1px,
+    #9c9c9c 1px 11px 1px,
+    #9c9c9c 1px 12px 1px;color:#fff; 
+}   
+
+form {
+    display: flex;
+    flex-direction: column;
+    width:75%;
+    height: auto;
+}
+
 @media screen and (min-width: 640px) {
 body {
     background-image: url("https://cdn.discordapp.com/attachments/821368823985995797/822389545085304882/feuille.jpg");
@@ -90,32 +117,4 @@ form {
 
 }
 }
-
-@media screen and (min-width: 1280px) {
-}  
-h1 {
-    display: flex;
-    font-family: 'Redressed-Regular' ;
-    font-size: 50px;
-    padding: 10px;
-    text-shadow:  white 0.006em 0.006em 0.007em,
-    #9c9c9c 1px 1px 1px,
-    #9c9c9c 1px 2px 1px,
-    #9c9c9c 1px 3px 1px,
-    #9c9c9c 1px 4px 1px,
-    #9c9c9c 1px 5px 1px,
-    #9c9c9c 1px 6px 1px,
-    #9c9c9c 1px 7px 1px,
-    #9c9c9c 1px 8px 1px,
-    #9c9c9c 1px 9px 1px,
-    #9c9c9c 1px 10px 1px,
-    #9c9c9c 1px 11px 1px,
-    #9c9c9c 1px 12px 1px;color:#fff; 
-}   
-
-form {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: auto;
-}
+ 
