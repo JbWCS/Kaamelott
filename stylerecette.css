@@ -285,12 +285,12 @@ p {
     padding: 30px 30px 30px 0;
 }
 
-.accordion-reverse .contentBx-reverse {
+.accordion-reverse .contentBx {
     position: relative;
     margin: 10px 0px;
 }
 
-.accordion-reverse .contentBx-reverse .label-reverse {
+.accordion-reverse .contentBx .label {
     position: relative;
     padding: 10px;
     background: rgb(141, 137, 137);
@@ -301,7 +301,7 @@ p {
     border-radius: 10px 10px 10px 10px;
 }
 
-.accordion-reverse .contentBx-reverse .label-reverse::before {
+.accordion-reverse .contentBx .label::before {
     content: '+';
     position: absolute;
     top: 50%;
@@ -311,11 +311,11 @@ p {
     border-radius: 10px 10px 10px 10px;
 }
 
-.accordion-reverse .contentBx-reverse.active .label-reverse::before {
+.accordion-reverse .contentBx.active .label::before {
     content: '-';
 }
 
-.accordion-reverse .contentBx-reverse .content-reverse {
+.accordion-reverse .contentBx .content {
     position:relative;
     background: rgb(248, 248, 225);
     height: 0;
@@ -325,7 +325,7 @@ p {
     border-radius: 10px 10px 10px 10px;
 }
 
-.accordion-reverse .contentBx-reverse.active .content-reverse {
+.accordion-reverse .contentBx.active .content {
     height: 150px;
     padding: 10px;
 }
