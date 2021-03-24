@@ -42,10 +42,7 @@ main {
     margin: 20px;
     border-radius: 2200px;
 }
-NoDeco {
-	color:#000;
-	text-decoration:none;
-}
+
 h1 {
 font-size: 3.5em;
 text-align: center;
@@ -165,6 +162,7 @@ p {
 .fondJaune {
     display: flex;
     width: 55%;
+    font-weight: bold;
     background-color : rgb(255 255 244 / 35%);
     /*justify-content: space-between;*/
     border-radius: 10px;
@@ -187,7 +185,8 @@ p {
     align-items: center;
     flex-direction: row-reverse;
     width: 55%;
-    background-color: rgb(248, 248, 225);
+    font-weight: bold;
+    background-color : rgb(255 255 244 / 35%);
     justify-content: space-between;
     border-radius: 10px 10px 10px 10px;
 }
@@ -214,7 +213,7 @@ p {
  
  
 .button:hover {
-    background-color: #ff955c;
+    background-color: #5964fc;
     font-weight: 700;
 }
  
@@ -223,9 +222,7 @@ p {
 }*/
  
 /*****Etoiles******/
- .rating {
-     direction:rtl;
-     }
+
 .rating a {
     color: rgb(144 144 144 );
     text-decoration: none;
