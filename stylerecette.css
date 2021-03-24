@@ -84,7 +84,26 @@ p {
     border-radius: 10px 10px 10px 10px;
 }
 
-.sectionLeft {
+#sectionLeft1 {
+    /*max-height: 300px;*/
+    display: flex;
+    padding: 15px;
+    background-color : rgba(153, 152, 152, 0.5); 
+    margin: 15px;
+    justify-content: space-around;
+    border-radius: 10px ;
+}
+#sectionLeft2 {
+    /*max-height: 300px;*/
+    padding: 15px;
+    background-color : rgba(153, 152, 152, 0.5); 
+    margin: 15px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+    flex-direction: row-reverse;
+}
+#sectionLeft3 {
     /*max-height: 300px;*/
     padding: 15px;
     background-color : rgba(153, 152, 152, 0.5); 
@@ -92,6 +111,35 @@ p {
     display: flex;
     justify-content: space-around;
     border-radius: 10px ;
+}
+#sectionLeft4 {
+    /*max-height: 300px;*/
+    padding: 15px;
+    background-color : rgba(153, 152, 152, 0.5); 
+    margin: 15px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+    flex-direction: row-reverse;
+}
+#sectionLeft5 {
+    /*max-height: 300px;*/
+    padding: 15px;
+    background-color : rgba(153, 152, 152, 0.5); 
+    margin: 15px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px ;
+}
+#sectionLeft6 {
+    /*max-height: 300px;*/
+    padding: 15px;
+    background-color : rgba(153, 152, 152, 0.5); 
+    margin: 15px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+    flex-direction: row-reverse;
 }
 
 .fondJaune {
@@ -108,6 +156,12 @@ p {
     display: flex;
     align-items: center;
 }
+.recipe-reverse {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
 .fondJaune2 {
     display: flex;
     width: 55%;
@@ -177,6 +231,7 @@ p {
     padding: 30px 0 30px 30px;
 }
 
+
 .accordion .contentBx {
     position: relative;
     margin: 10px 0px;
@@ -222,6 +277,56 @@ p {
     padding: 10px;
 }
 
+.accordion-reverse {
+    max-width: 400px;
+    padding: 30px 30px 30px 0;
+}
+
+.accordion-reverse .contentBx-reverse {
+    position: relative;
+    margin: 10px 0px;
+}
+
+.accordion-reverse .contentBx-reverse .label-reverse {
+    position: relative;
+    padding: 10px;
+    background: rgb(141, 137, 137);
+    color: rgb(243, 234, 234);
+    color: bold;
+    cursor: pointer;
+    font-size: 1.5em;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.accordion-reverse .contentBx-reverse .label-reverse::before {
+    content: '+';
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    font-size: 1.5em;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.accordion-reverse .contentBx-reverse.active .label-reverse::before {
+    content: '-';
+}
+
+.accordion-reverse .contentBx-reverse .content-reverse {
+    position:relative;
+    background: rgb(248, 248, 225);
+    height: 0;
+    overflow: hidden;
+    transition: 0.5s;
+    overflow-y: auto;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.accordion-reverse .contentBx-reverse.active .content-reverse {
+    height: 150px;
+    padding: 10px;
+}
+
 /*****Video*****/
 
 .video {
@@ -248,9 +353,9 @@ perspective:8000px
 		
 .caroussel-image{
 	
-animation:rotation 24s infinite alternate linear;	
+animation:rotation 30s infinite alternate linear;	
 transform-style:preserve-3d;
-position:relative;	
+position:relative;
 
 }
 
@@ -324,7 +429,7 @@ transform:rotateY(45deg) translateZ(495px)
 	
 }
 
-	
+
 
 	
 @keyframes rotation{
@@ -389,6 +494,64 @@ p{
     align-items: center;
     margin-top: 15px;
 }
+.recipe-reverse {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.accordion-reverse {
+    max-width: 400px;
+    padding: 30px 30px 30px 0;
+}
+
+.accordion-reverse .contentBx-reverse {
+    position: relative;
+    margin: 10px 0px;
+}
+
+.accordion-reverse .contentBx-reverse .label-reverse {
+    position: relative;
+    padding: 10px;
+    background: rgb(141, 137, 137);
+    color: rgb(243, 234, 234);
+    color: bold;
+    cursor: pointer;
+    font-size: 1.5em;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.accordion-reverse .contentBx-reverse .label-reverse::before {
+    content: '+';
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    font-size: 1.5em;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.accordion-reverse .contentBx-reverse.active .label-reverse::before {
+    content: '-';
+}
+
+.accordion-reverse .contentBx-reverse .content-reverse {
+    position:relative;
+    background: rgb(248, 248, 225);
+    height: 0;
+    overflow: hidden;
+    transition: 0.5s;
+    overflow-y: auto;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.accordion-reverse .contentBx-reverse.active .content-reverse {
+    height: 150px;
+    padding: 10px;
+}
+
+
 .fondJaune {
     display: flex;
     width: 100%;
@@ -407,7 +570,52 @@ p{
 .section{
     width: 100%;
 }
-.sectionLeft {
+#sectionLeft1 {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    background-color : rgba(153, 152, 152, 0.5); 
+    margin: 10px;
+    justify-content: flex-start;
+    border-radius: 10px 10px 10px 10px;
+}
+#sectionLeft2 {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    background-color : rgba(153, 152, 152, 0.5); 
+    margin: 10px;
+    justify-content: flex-start;
+    border-radius: 10px 10px 10px 10px;
+}
+#sectionLeft3 {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    background-color : rgba(153, 152, 152, 0.5); 
+    margin: 10px;
+    justify-content: flex-start;
+    border-radius: 10px 10px 10px 10px;
+}
+#sectionLeft4 {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    background-color : rgba(153, 152, 152, 0.5); 
+    margin: 10px;
+    justify-content: flex-start;
+    border-radius: 10px 10px 10px 10px;
+}
+#sectionLeft5 {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    background-color : rgba(153, 152, 152, 0.5); 
+    margin: 10px;
+    justify-content: flex-start;
+    border-radius: 10px 10px 10px 10px;
+}
+#sectionLeft6 {
     display: flex;
     flex-direction: column;
     padding: 15px;
@@ -417,6 +625,9 @@ p{
     border-radius: 10px 10px 10px 10px;
 }
 .accordion{
+    padding: 15px 0;
+}
+.accordion-reverse{
     padding: 15px 0;
 }
 
