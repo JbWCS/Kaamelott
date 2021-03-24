@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
- 
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Gstylehome.css">
-    <link rel="stylesheet" href="stylerecette.css">
+    <link rel="stylesheet" href="stylepersonnage.css">
     <title>Characters Kaamelott</title>
 </head>
- 
+
 <body>
     <header>
         <img class="logoT" src="https://upload.wikimedia.org/wikipedia/fr/2/2a/Kaamelott_Premier_Volet_Logo.png">
@@ -32,12 +32,12 @@
                 <img src="images/Lancelot_du_Lac.jpg" alt>
                 <img src="images/Dame séli.jpg" alt>
                 <img src="images/Yvain.jpeg" alt>
-                <img src="images/Merlin_2-choup37.jpeg" alt>
-                <img src="images/père blaise.jpeg" alt>
+                <img src="images/Merlin.jpeg" alt>
+                <img src="images/Karadoc.jpeg" alt>
             </div>
         </div>
         <h1>Characters of Kaamelott</h1>
- 
+
         <div class="global">
             <section id="sectionLeft1">
                 <div class="fondJaune">
@@ -46,7 +46,7 @@
                     </div>
                     <div class="fondText">
                         <h2>
-                            <a href="Arthur.html"> Arthur Pendragon </a>
+                            <a class="NoDeco" href="Arthur.html"> Arthur Pendragon </a>
                         </h2>
                         <p>
                             "For the Grail, I built a fortress. Kaamelott, it's called. I went looking for knights all
@@ -73,17 +73,17 @@
                         </div>
                         <span class="mrtn-font-discret">on 158 reviews</span>
                     </div>
- 
+
                 </div>
- 
+
             </section>
             <div class="global">
                 <section id="sectionLeft2">
-                    <div class="fondJaune">
+                    <div class="fondJaune2">
                         <div class="img-flotte">
-                            <img class="flotte" src="images/Perceval.jpg" alt="Photo Perceval">
+                            <img class="flotte2" src="images/Perceval.jpg" alt="Photo Perceval">
                         </div>
-                        <div class="fondText">
+                        <div class="fondText2">
                             <h2>
                                 Perceval
                             </h2>
@@ -110,10 +110,10 @@
                             </div>
                             <span class="mrtn-font-discret">on 256 reviews</span>
                         </div>
- 
+
                     </div>
- 
- 
+
+
                 </section>
                 <div class="global">
                     <section id="sectionLeft5">
@@ -132,7 +132,7 @@
                                     compensation to take all this crap, eh!
                                     Yeah, well... It's not wrong.
                                     ”
- 
+
                                 </p>
                             </div>
                         </div>
@@ -153,18 +153,18 @@
                                 </div>
                                 <span class="mrtn-font-discret">on 423 reviews</span>
                             </div>
- 
+
                         </div>
- 
- 
+
+
                     </section>
                     <div class="global">
                         <section id="sectionLeft4">
-                            <div class="fondJaune">
+                            <div class="fondJaune2">
                                 <div class="img-flotte">
                                     <img class="flotte" src="images/Lancelot_du_Lac.jpg" alt="Photo lancelot">
                                 </div>
-                                <div class="fondText">
+                                <div class="fondText2">
                                     <h2>
                                         Lancelot du lac
                                     </h2>
@@ -191,10 +191,10 @@
                                     </div>
                                     <span class="mrtn-font-discret">on 196 reviews</span>
                                 </div>
- 
+
                             </div>
- 
- 
+
+
                         </section>
                         <div class="global">
                             <section id="sectionLeft5">
@@ -229,18 +229,18 @@
                                         </div>
                                         <span class="mrtn-font-discret">on 475 reviews</span>
                                     </div>
- 
+
                                 </div>
- 
- 
+
+
                             </section>
                             <div class="global">
                                 <section id="sectionLeft6">
-                                    <div class="fondJaune">
+                                    <div class="fondJaune2">
                                         <div class="img-flotte">
-                                            <img class="flotte" src="images/Dame séli.jpg" alt="Photo Dame Séli">
+                                            <img class="flotte2" src="images/Dame séli.jpg" alt="Photo Dame Séli">
                                         </div>
-                                        <div class="fondText">
+                                        <div class="fondText2">
                                             <h2>
                                                 Dame Séli
                                             </h2>
@@ -267,14 +267,14 @@
                                             </div>
                                             <span class="mrtn-font-discret">on 758 reviews</span>
                                         </div>
- 
+
                                     </div>
- 
- 
+
+
                                 </section>
- 
+
                             </div>
- 
+
                             <footer>
                                 <section id="wrapContent">
                                     <p id="contentFooter">Find us on</p>
@@ -292,19 +292,30 @@
                                     </div>
                                 </section>
                             </footer>
- 
+
     </main>
- 
+
     <script>
         const accordion = document.getElementsByClassName
             ('contentBx');
- 
+
         for (i = 0; i < accordion.length; i++) {
             accordion[i].addEventListener('click', function () {
                 this.classList.toggle('active')
             })
         }
     </script>
+    <footer>
+        <div id="flex-end">
+            <p id="pfooter"> Find us on</p>
+            <img class="contentFooter"
+                src="https://cdn.discordapp.com/attachments/821368823985995797/822460774063800330/twitter.png">
+            <img class="contentFooter"
+                src="https://cdn.discordapp.com/attachments/821368823985995797/822460770385788978/logo_facebook.png">
+            <img class="contentFooter"
+                src="https://cdn.discordapp.com/attachments/821368823985995797/822460765255499776/insta.png">
+        </div>
+    </footer>
 </body>
- 
+
 </html>
