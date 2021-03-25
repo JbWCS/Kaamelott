@@ -177,7 +177,6 @@ h2 {
     box-shadow: 8px 8px 10px 0 rgb(0 0 0 / 50%);
 }
  
- 
 form {
     display: flex;
     flex-direction: column;
@@ -189,6 +188,7 @@ label{
     font-family: 'Redressed';
     font-size: 20px;
 }
+
 #msg {
     height: 90px;
     opacity: 0.5;
@@ -197,17 +197,7 @@ label{
 #pseudo {
     opacity: 0.5;
 }
- 
-.send {
-    margin: 0 auto;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    width: 70px;
-    height: 30px;
-    color: white;
-    background-color: black;
-    border-radius: 5px;
-}
+
 #scrollUp{
     position: fixed;
     bottom : 50px;
