@@ -164,6 +164,7 @@ p {
     display: flex;
     align-items: center;
     flex-direction: row-reverse;
+    padding: 20px;
 }
 
 .fondJaune2 {
@@ -434,8 +435,7 @@ transform:rotateY(45deg) translateZ(495px)
 	
 }
 
-#scrollUp
-{
+#scrollUp{
 position: fixed;
 bottom : 50px;
 right: -100px;
