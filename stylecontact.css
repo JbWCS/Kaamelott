@@ -73,6 +73,34 @@ footer{
       padding-bottom: 15px;
     }
 
+/*******TEST******/
+
+#bird {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+}
+
+.animation-bird {
+  width: 100px;
+  height: 100px;
+  -webkit-animation: redBox 5s infinite;
+  -moz-animation: redBox 5s infinite;
+  animation: redBox 5s;
+}
+
+@keyframes 
+redBox {
+0% {
+  left: 10px;
+}
+50% {
+  left: 900px;
+}
+100% {
+  left: 900px;
+}
+}
 
 
 
