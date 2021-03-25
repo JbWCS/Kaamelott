@@ -1,42 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Redressed&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;1,200&family=Redressed&display=swap');
-
+ 
 /******VERSION DESKTOP*****/
-
+ 
 html {
     scroll-behavior: smooth;
 }
-
+ 
 body{
     font-family: "Nunito", sans-serif;
     margin: 0;
     padding: 0;
 }
-
+ 
 main {
     margin: 0 auto;
 }
-
+ 
  
 h1 {
     display: flex;
     justify-content: center;
     font-family: 'Redressed', cursive;
-    font-size: 50px;
-    padding: 10px;
-    text-shadow:  white 0.006em 0.006em 0.007em,
-    #9c9c9c 1px 1px 1px,
-    #9c9c9c 1px 2px 1px,
-    #9c9c9c 1px 3px 1px,
-    #9c9c9c 1px 4px 1px,
-    #9c9c9c 1px 5px 1px,
-    #9c9c9c 1px 6px 1px,
-    #9c9c9c 1px 7px 1px,
-    #9c9c9c 1px 8px 1px,
-    #9c9c9c 1px 9px 1px,
-    #9c9c9c 1px 10px 1px,
-    #9c9c9c 1px 11px 1px,
-    #9c9c9c 1px 12px 1px;color:#fff; 
+    font-size: 3.5em;
+    padding: 10px; 
 }   
  
 .resume {
@@ -49,6 +36,7 @@ h2 {
     display: flex;
     justify-content: center;
     font-family: 'Redressed', cursive;
+    font-size: 24px;
 }
  
 #container {
@@ -85,6 +73,17 @@ h2 {
     box-shadow: 8px 8px 10px 0 rgb(0 0 0 / 50%);
 }
  
+.equipe{
+    display: flex;
+    border-radius: 20px;
+    width: 90%;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    box-shadow: 8px 8px 10px 0 rgb(0 0 0 / 50%);
+}
+ 
 .Arthur:hover {
     transform:scale(1.1)
 }
@@ -95,126 +94,21 @@ form {
     margin: 0 auto;
     width: 50%;
 }
- 
-#msg {
-    height: 90px;
-    opacity: 0.5;
-}
- 
-#pseudo {
-    opacity: 0.5;
-}
- 
-.send {
-    margin: 0 auto;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    width: 70px;
-    height: 30px;
- 
-}
-#scrollUp{
-    position: fixed;
-    bottom : 50px;
-    right: 15px;
-    opacity: 1;
-    scroll-behavior: smooth;
-}
-
-
-/******VERSION MOBILE******/
-
-@media screen and (max-width:640px){
-
-h1 {
-    display: flex;
-    font-family: 'Redressed-Regular';
-    font-size: 50px;
-    padding: 10px;
-    text-shadow:  white 0.006em 0.006em 0.007em,
-    #9c9c9c 1px 1px 1px,
-    #9c9c9c 1px 2px 1px,
-    #9c9c9c 1px 3px 1px,
-    #9c9c9c 1px 4px 1px,
-    #9c9c9c 1px 5px 1px,
-    #9c9c9c 1px 6px 1px,
-    #9c9c9c 1px 7px 1px,
-    #9c9c9c 1px 8px 1px,
-    #9c9c9c 1px 9px 1px,
-    #9c9c9c 1px 10px 1px,
-    #9c9c9c 1px 11px 1px,
-    #9c9c9c 1px 12px 1px;color:#fff; 
-}   
-
-form {
-    display: flex;
-    flex-direction: column;
-    width:75%;
-    height: auto;
-}
-
-.resume {
-    text-align: justify;
-    padding: 10px;
-}
-
-h2 {
-    display: flex;
-    justify-content: center;
-}
-
-#container {
-    font-family: "Nunito-Light";
-    font-size: 20px;
-    display:flex;
-    flex-direction: column;
-    padding-top: 2px;
-    padding-bottom: 2px;
-    padding-left: 2px;
-    padding-right: 2px;
-}
-
-.Arthur {
-    border-radius: 20px;
-    width: 80%;
-    justify-content: center;
-    margin-top: 7px;
-    margin-bottom: 7px;
-    box-shadow: 8px 8px 10px 0 rgba(0,0,0,0.5);
-}
-
-.equipe{
-    display: flex;
-    border-radius: 20px;
-    width: 90%;
-    justify-content: center;
-    margin: 0 auto;
-    margin-top: 7px;
-    margin-bottom: 7px;
-    box-shadow: 8px 8px 10px 0 rgb(0 0 0 / 50%);
-}
-
-
-form {
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-    width: 80%;
-}
 
 label{
     font-family: 'Redressed';
     font-size: 20px;
 }
+ 
 #msg {
     height: 90px;
     opacity: 0.5;
 }
-
+ 
 #pseudo {
     opacity: 0.5;
 }
-
+ 
 .send {
     margin: 0 auto;
     margin-top: 5px;
@@ -233,6 +127,104 @@ label{
     scroll-behavior: smooth;
 }
 
+
+/******VERSION MOBILE******/
+
+#scrollUp{
+    position: fixed;
+    bottom : 50px;
+    right: 15px;
+    opacity: 1;
+    scroll-behavior: smooth;
+}
+ 
+ 
+/******VERSION MOBILE******/
+ 
+@media screen and (max-width:640px){
+ 
+h1 {
+    display: flex;
+    font-family: 'Redressed-Regular';
+    font-size: 3.5em;
+    padding: 10px;
+}   
+ 
+form {
+    display: flex;
+    flex-direction: column;
+    width:75%;
+    height: auto;
+}
+ 
+.resume {
+    text-align: justify;
+    padding: 10px;
+}
+ 
+h2 {
+    display: flex;
+    justify-content: center;
+}
+ 
+#container {
+    font-family: "Nunito-Light";
+    font-size: 20px;
+    display:flex;
+    flex-direction: column;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+ 
+.Arthur {
+    border-radius: 20px;
+    width: 80%;
+    justify-content: center;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    box-shadow: 8px 8px 10px 0 rgba(0,0,0,0.5);
+}
+ 
+.equipe{
+    display: flex;
+    border-radius: 20px;
+    width: 90%;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    box-shadow: 8px 8px 10px 0 rgb(0 0 0 / 50%);
+}
+ 
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 80%;
+}
+ 
+label{
+    font-family: 'Redressed';
+    font-size: 20px;
 }
 
+#msg {
+    height: 90px;
+    opacity: 0.5;
+}
+ 
+#pseudo {
+    opacity: 0.5;
+}
 
+#scrollUp{
+    position: fixed;
+    bottom : 50px;
+    right: 15px;
+    opacity: 1;
+    scroll-behavior: smooth;
+}
+ 
+}
