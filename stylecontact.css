@@ -108,7 +108,7 @@ font-size: smaller;
 
 #contactForm{
   height: 100%;
-  margin-left: 1%;
+  margin-left: 15px;
   
 }
 
@@ -125,6 +125,11 @@ font-size: smaller;
   display: inline-block;
 }
 
+
+input[type="submit"] {
+margin-bottom: 20px;
+
+}
 
 }
 
