@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+
+
 #letter{
   display: flex;
   justify-content: center;
-  font-family: reserved, sans-serif;
+  font-family: redressed, sans-serif;
 }
 
 
@@ -101,3 +105,26 @@ footer{
 #letter{
 font-size: smaller;
 }
+
+#contactForm{
+  height: 100%;
+  margin-left: 1%;
+  
+}
+
+#carte{
+  
+  margin: 0 auto;
+  width: 300px;
+  height: 200px;
+  max-width: 100%;
+}
+
+
+.bloc{
+  display: inline-block;
+}
+
+
+}
+
