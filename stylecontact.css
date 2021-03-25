@@ -1,90 +1,74 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
-
-
 #letter{
-  display: flex;
-  justify-content: center;
-  font-family: redressed, sans-serif;
+    display: flex;
+    justify-content: center;
+    font-family: reserved, sans-serif;
 }
 
 
 form {
-  margin: 0 auto;
-  width: 300px;
-  padding-top: 20px;
-}
-
-label {
-  line-height: 2;
-}
-
-input[type="text"],
-input[type="email"],
-textarea {
-  width: 100%;
-  padding: 5px;
-  margin-bottom: 10px;
-}
-
-input[type="submit"] {
-  background: rgba(51, 51, 51, 0.3);
-  color: white;
-  border: none;
-  padding: 5px 10px;
+    margin: 0 auto;
+    width: 300px;
+    padding-top: 20px;
+  }
+  
+  label {
+    line-height: 2;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  input[type="submit"] {
+    background: rgba(51, 51, 51, 0.3);
+    color: white;
+    border: none;
+    padding: 5px 10px;
 } 
 #carte{
- display: inline-block;
- 
-  
-  margin-right: 10%;
-  margin-bottom: 7%;
- 
+   
 }
 
-#contactForm{
-display: inline-block;
-}
 
 .bloc{
-width: 100%;
-display: flex;
-justify-content: space-around;
+display: inline-block;
+width: 25%;
 }
 /* footer part*/
 
 footer{
 
-  background: rgba(51, 51, 51, 0.3);
-  
-  margin-top: 30px;
-  
-  width:100%;
-  
-  height: 40px;
-  
-  
-  
+    background: rgba(51, 51, 51, 0.3);
+    
+    margin-top: 30px;
+    
+    width:100%;
+    
+    height: 40px;
+    
+    }
 
-  }
+    #wrapContent{
+      display: flex;
+      justify-content: flex-end;
+    }
 
-  #wrapContent{
-    display: flex;
-    justify-content: flex-end;
-  }
-
-  #wrapContent p{
-    padding-bottom: 10px;
-  }
+    #wrapContent p{
+      padding-bottom: 10px;
+    }
 
 
 
-  .contentFooter{
-    width: 20px;
-    height: 20px;
-    margin: 10px;
-    padding-bottom: 15px;
-  }
+    .contentFooter{
+      width: 20px;
+      height: 20px;
+      margin: 10px;
+      padding-bottom: 15px;
+    }
 
 /*******TEST******/
 
@@ -108,7 +92,7 @@ redBox {
   left: 10px;
 }
 50% {
-  left: 900px;
+  left: 00px;
 }
 100% {
   left: 900px;
@@ -118,46 +102,19 @@ redBox {
 
 
 @media screen and (max-width: 640px){
-
+  
 
 #carte{
-  
-  margin: 1%;
-  width: 400px;
-  height: 300px;
-  max-width: 100%;
-  display: flex;
-  justify-content: center;
+    
+    margin: 1%;
+    width: 400px;
+    height: 300px;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 #letter{
-font-size: smaller;
+ font-size: smaller;
 }
-
-#contactForm{
-  height: 100%;
-  margin-left: 15px;
-  
 }
-
-#carte{
-  
-  margin: 0 auto;
-  width: 300px;
-  height: 200px;
-  max-width: 100%;
-}
-
-
-.bloc{
-  display: inline-block;
-}
-
-
-input[type="submit"] {
-margin-bottom: 20px;
-
-}
-
-}
-
