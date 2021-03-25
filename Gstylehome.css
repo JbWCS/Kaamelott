@@ -75,20 +75,45 @@ li a:active {
     background: linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.1)); 
     box-shadow: 0 0 2px rgba(0,0,0,.3) inset;
 }
-a {
+.navigationletter {
     padding-left: 30px;
     text-decoration: none;
     color: #000000;
 }
-input{
+.Burger{
     display: none;
 }
-input[type="checkbox"]:not(:checked) + ul {
+.Burger[type="checkbox"]:not(:checked) + ul {
  display: none;
 }
-input[type="checkbox"]:checked + ul {
+.Burger[type="checkbox"]:checked + ul {
 display: flex;
 
+}
+
+/*footerpart*/
+
+footer{
+    display: flex;
+    width: 100%;
+    background-color: rgba(59, 59, 59, 0.2);
+    height: 2em;
+}
+
+footer div{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.contentFooter{
+   margin-left: 2%;
+   margin-right: 2%;
+}
+
+#pfooter{
+    display: flex;
+    align-items: center;
 }
 
 
@@ -121,108 +146,29 @@ a {
     padding-bottom: 50px;
 }
 
-input[type="checkbox"]:not(:checked) ~ ul {
+.Burger[type="checkbox"]:not(:checked) ~ ul {
     display: none;
   }
-  input[type="checkbox"]:checked ~ ul {
+  .Burger[type="checkbox"]:checked ~ ul {
     display: flex;
   }
   
   /* Gestion de la checkbox */
-  input[type="checkbox"] + label:before {
+  .Burger[type="checkbox"] + label:before {
     font-family: FontAwesome;
     font-size: 30px;
   }
 
-  input[type="checkbox"] + label:before {
+  .Burger[type="checkbox"] + label:before {
     content: "\f0c9";
     
   }
 
-  input[type="checkbox"]:not(:checked) + label:before {
+  .Burger[type="checkbox"]:not(:checked) + label:before {
     content: "\f0c9";
   }
 
-  input[type="checkbox"]:checked + label:before {
+  .Burger[type="checkbox"]:checked + label:before {
     content: "\f00d";
   }
-}
-
-
-/*footerpart*/
-
-footer{
-    display: flex;
-    width: 100%;
-    background-color: rgba(59, 59, 59, 0.2);
-    height: 2em;
-}
-
-footer div{
-    display: flex;
-    justify-content: flex-end;
-    width: 100%;
-}
-
-.contentFooter{
-   margin-left: 2%;
-   margin-right: 2%;
-}
-
-#pfooter{
-    display: flex;
-    align-items: center;
-}
-
-
-@media screen and (max-width: 640px) {
-
-
-    ul{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        width: 200px;
-        height: 300px;
-        margin: 0;
-        padding: 0;
-        background: linear-gradient(rgb(165, 165, 165), rgb(132, 132, 133));
-        border-radius: 3px;
-        box-shadow: 0 1px 3px rgba(0, 0, 0, .3),
-                    0 3px 5px rgba(0, 0, 0, .2),
-                    0 5px 10px rgba(0, 0, 0, .2),
-                    0 20px 20px rgba(0, 0, 0, .15);
-    }
-    ul li{
-        display: table-cell;
-    }
-    
-    ul li a{
-        display: block;
-        justify-content: center;
-        text-align: justify;
-        color: rgba(0, 0, 0, .7); 
-        text-decoration: none;
-        padding: 0px 8px 35px 8px;
-        text-shadow: 0 1px 0 rgba(255, 255, 255, .4);
-        transition: all .3s;
-    
-    }
-    
-    
-    ul li a:hover, ul li a:focus{
-        background: rgba(255,255,255,.2);
-        box-shadow: 0 1px 0 rgba(255, 255, 255, .7) inset, 
-                    0 -1px 0 hsl(210, 100%, 42%) inset, 
-                    0 -2px 0 hsl(210, 100%, 48%) inset, 
-                    0 -3px 0 hsl(210, 100%, 54%) inset, 
-                    0 -4px 0 hsl(210, 100%, 60%) inset, 
-                    0 -5px 0 hsl(210, 100%, 70%) inset; 
-                    padding:  8px 25px 17px 25px;
-    } 
-    ul li a:active{
-        background: linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.1)); 
-        box-shadow: 0 0 2px rgba(0,0,0,.3) inset;
-    }
 }

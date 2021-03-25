@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Gstylehome.css">
     <link rel="stylesheet" href="stylerecette.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>titre1</title>
 </head>
 
@@ -14,14 +15,16 @@
     <header>
         <img class="logoT" src="https://upload.wikimedia.org/wikipedia/fr/2/2a/Kaamelott_Premier_Volet_Logo.png">
         <img class="logoP" src="https://static.kaamelott.gg/img/logo/kaamelott.png">
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="personnage.html">Characters</a></li>
-                <li><a href="recette.html">Recipes</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
+        <div id="burger">
+
+            <input class="Burger" type="checkbox" id="burger_checkbox" />
+            <label type="checkbox" for="burger_checkbox"></label>
+            <ul id="menu">
+                <li><a class="navigationletter" href="index.html">Home</a></li>
+                <li><a class="navigationletter" href="personnage.html">Characters</a></li>
+                <li><a class="navigationletter" href="recette.html">Recipes</a></li>
+                <li><a class="navigationletter" href="contact.html">Contact Us</a></li>
             </ul>
-        </nav>
     </header>
     <main>
         <div class="contenu_carou_auto">
@@ -385,8 +388,8 @@
                                 </video>
                             </div>
                             <div id="scrollUp">
-                                <a href="#top"><img src="images/to_top.png"/></a>
-                                </div>        
+                                <a href="#top"><img src="images/to_top.png" /></a>
+                            </div>
 
     </main>
 
@@ -402,28 +405,31 @@
         }
     </script>
     <script>
-        jQuery(function(){
+        jQuery(function () {
             $(function () {
                 $(window).scroll(function () {
-                    if ($(this).scrollTop() > 200 ) { 
-                        $('#scrollUp').css('right','10px');
-                    } else { 
-                        $('#scrollUp').removeAttr( 'style' );
+                    if ($(this).scrollTop() > 200) {
+                        $('#scrollUp').css('right', '10px');
+                    } else {
+                        $('#scrollUp').removeAttr('style');
                     }
 
                 });
             });
         });
-</script>
+    </script>
 
-<footer>
-<div id="flex-end">
-    <p id ="pfooter"> Find us on</p>
-    <img class="contentFooter" src="https://cdn.discordapp.com/attachments/821368823985995797/822460774063800330/twitter.png">
-    <img class="contentFooter" src="https://cdn.discordapp.com/attachments/821368823985995797/822460770385788978/logo_facebook.png">
-    <img class="contentFooter" src="https://cdn.discordapp.com/attachments/821368823985995797/822460765255499776/insta.png">
-</div>
-</footer>
+    <footer>
+        <div id="flex-end">
+            <p id="pfooter"> Find us on</p>
+            <img class="contentFooter"
+                src="https://cdn.discordapp.com/attachments/821368823985995797/822460774063800330/twitter.png">
+            <img class="contentFooter"
+                src="https://cdn.discordapp.com/attachments/821368823985995797/822460770385788978/logo_facebook.png">
+            <img class="contentFooter"
+                src="https://cdn.discordapp.com/attachments/821368823985995797/822460765255499776/insta.png">
+        </div>
+    </footer>
 </body>
 
 </html>
