@@ -61,17 +61,6 @@ h2 {
     margin-bottom: 7px;
     box-shadow: 8px 8px 10px 0 rgba(0,0,0,0.5);
 }
-
-.equipe{
-    display: flex;
-    border-radius: 20px;
-    width: 90%;
-    justify-content: center;
-    margin: 0 auto;
-    margin-top: 15px;
-    margin-bottom: 30px;
-    box-shadow: 8px 8px 10px 0 rgb(0 0 0 / 50%);
-}
  
 .equipe{
     display: flex;
