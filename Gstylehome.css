@@ -80,9 +80,7 @@ a {
     text-decoration: none;
     color: #000000;
 }
-input{
-    display: none;
-}
+
 input[type="checkbox"]:not(:checked) + ul {
  display: none;
 }
