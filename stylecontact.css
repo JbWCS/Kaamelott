@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+
+
 #letter{
   display: flex;
   justify-content: center;
-  font-family: reserved, sans-serif;
+  font-family: redressed, sans-serif;
 }
 
 
@@ -30,21 +34,22 @@ input[type="submit"] {
   padding: 5px 10px;
 } 
 #carte{
-  display: inline-block;
+ display: inline-block;
  
   
-  margin-left: 5%;
+  margin-right: 10%;
+  margin-bottom: 7%;
  
 }
 
-#carte img{
-  
+#contactForm{
+display: inline-block;
 }
-
 
 .bloc{
-float: left;
-width: 25%;
+width: 100%;
+display: flex;
+justify-content: space-around;
 }
 /* footer part*/
 
@@ -81,6 +86,34 @@ footer{
     padding-bottom: 15px;
   }
 
+/*******TEST******/
+
+#bird {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+}
+
+.animation-bird {
+  width: 100px;
+  height: 100px;
+  -webkit-animation: redBox 5s infinite;
+  -moz-animation: redBox 5s infinite;
+  animation: redBox 5s;
+}
+
+@keyframes 
+redBox {
+0% {
+  left: 10px;
+}
+50% {
+  left: 900px;
+}
+100% {
+  left: 900px;
+}
+}
 
 
 
@@ -100,3 +133,31 @@ footer{
 #letter{
 font-size: smaller;
 }
+
+#contactForm{
+  height: 100%;
+  margin-left: 15px;
+  
+}
+
+#carte{
+  
+  margin: 0 auto;
+  width: 300px;
+  height: 200px;
+  max-width: 100%;
+}
+
+
+.bloc{
+  display: inline-block;
+}
+
+
+input[type="submit"] {
+margin-bottom: 20px;
+
+}
+
+}
+
