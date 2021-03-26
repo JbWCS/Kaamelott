@@ -46,9 +46,6 @@ input[type="submit"] {
   padding-top: 50px; 
 }
 
-#contactForm{
-/*display: inline-block;*/
-}
 
 .bloc{
   display: flex;
@@ -108,10 +105,10 @@ redBox {
   left: 10px;
 }
 50% {
-  left: 700px;
+  left: 900px;
 }
 100% {
-  left: 700px;
+  left: 900px;
 }
 }
 #pigeonpc{
