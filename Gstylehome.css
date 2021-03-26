@@ -143,7 +143,7 @@ li a:active {
     box-shadow: 0 0 2px rgba(0,0,0,.3) inset;
 }
 a {
-    padding-bottom: 50px;
+    padding-bottom: 20px;
 }
 
 .Burger[type="checkbox"]:not(:checked) ~ ul {
